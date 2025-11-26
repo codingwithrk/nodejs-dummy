@@ -8,7 +8,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome to the Telugu Bible API!",
+    message: "Hello World",
  });
 });
 
